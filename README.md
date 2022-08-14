@@ -1,4 +1,4 @@
-# Webpack-Starter
+# Webpack Starter Kit
  
 starter pack for creating a project using ES6 features (including module export/import) with React, Typescript, Caching & Code Splitting.
 
@@ -7,6 +7,8 @@ The project has the following features:
 - Compilation of ES6 into ES5
 - Code Splitting
 - Caching
+- Asset handling
+- Plugins and Loaders
 - Webpack dev server
 
 The project is production ready.
