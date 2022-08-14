@@ -1,13 +1,16 @@
-*{
+
+body{
+    background-color: black;
+}
+
+h1, h2{
+    text-align: center;
+    color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
-.container{
+.img-container{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 
-h2{
-    color: blue
-}

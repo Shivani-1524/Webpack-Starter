@@ -1,2 +1,1 @@
-# Webpack-Starter
- 
+# Webpack-Starter-kit
