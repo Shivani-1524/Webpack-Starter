@@ -1,7 +1,6 @@
-import React from 'react'
 import _ from 'lodash';
 import "./App.css";
-import Logo from './logo.svg'
+import Logo from './logo-pack.svg'
 
 
 const App = () => {
@@ -12,7 +11,7 @@ const App = () => {
             <img src={Logo} alt='build logo' />
         </div>
     </>
-    
 }
+
 
 export default App

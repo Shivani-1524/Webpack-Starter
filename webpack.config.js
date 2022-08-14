@@ -9,6 +9,11 @@ const webpackConfig = {
         path: path.resolve(__dirname, "dist"),
         clean: true
     },
+    performance: {
+        hints: false,
+        maxEntrypointSize: 50000,
+        maxAssetSize: 50000
+    },
     resolve: {
         extensions: ['.js', '.jsx'],
     },
@@ -57,7 +62,7 @@ const webpackConfig = {
 
     devtool: "inline-source-map",
     devServer: {
-        contentBase: "./dist"
+        contentBase: "./dist",
     },
     mode: "production"
 };
